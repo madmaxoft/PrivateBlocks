@@ -82,7 +82,7 @@ hackdoor).
 			Description = "Add a friend so that they can break my blocks",
 			RecommendedGroups = "default",
 		},
-		["privateblocks.user.lsfriend"] =
+		["privateblocks.user.lsfriends"] =
 		{
 			Description = "List people who can break my blocks",
 			RecommendedGroups = "default",

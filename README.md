@@ -20,6 +20,5 @@ Note that friendship is a one-way relationship - declaring someone a friend only
 | ----------- | ----------- | -------- | ------------------ |
 | privateblocks.admin.override | Place and dig blocks regardless of their ownership |  | admins, mods |
 | privateblocks.user.addfriend | Add a friend so that they can break my blocks | `/privateblocks addfriend`, `/privateblocks addfriend` | default |
-| privateblocks.user.lsfriend | List people who can break my blocks |  | default |
-| privateblocks.user.lsfriends |  | `/privateblocks lsfriends`, `/privateblocks lsfriends` |  |
+| privateblocks.user.lsfriends | List people who can break my blocks | `/privateblocks lsfriends`, `/privateblocks lsfriends` | default |
 | privateblocks.user.rmfriend | Remove a former friend so that they cannot break my blocks anymore | `/privateblocks rmfriend`, `/privateblocks rmfriend` | default |
