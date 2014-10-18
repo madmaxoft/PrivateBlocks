@@ -77,6 +77,21 @@ hackdoor).
 			Description = "Place and dig blocks regardless of their ownership",
 			RecommendedGroups = "admins, mods",
 		},
+		["privateblocks.user.addfriend"] =
+		{
+			Description = "Add a friend so that they can break my blocks",
+			RecommendedGroups = "default",
+		},
+		["privateblocks.user.lsfriend"] =
+		{
+			Description = "List people who can break my blocks",
+			RecommendedGroups = "default",
+		},
+		["privateblocks.user.rmfriend"] =
+		{
+			Description = "Remove a former friend so that they cannot break my blocks anymore",
+			RecommendedGroups = "default",
+		},
 	},  -- Permissions
 }
 
