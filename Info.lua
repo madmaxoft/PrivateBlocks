@@ -14,6 +14,14 @@ g_PluginInfo =
 	Description =
 [[
 Auto-protects each block that each player places or breaks.
+
+Each block that a player builds is automatically added to their list of protected blocks, thus prohibiting
+other players from breaking the block. Players can additionally define friends who are able to break their
+blocks. The server admins and moderators (when given the proper permissions) can always break all blocks.
+
+Note that friendship is a one-way relationship - declaring someone a friend only means they can break your
+blocks, it doesn't allow you to break your blocks (because if it did, friending an admin would be a
+hackdoor).
 ]],
 
 	Commands =
