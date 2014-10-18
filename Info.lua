@@ -11,6 +11,7 @@ g_PluginInfo =
 {
 	Name = "PrivateBlocks",
 	Date = "2014-10-17",
+	SourceLocation = "https://github.com/madmaxoft/PrivateBlocks",
 	Description =
 [[
 Auto-protects each block that each player places or breaks.
