@@ -242,7 +242,7 @@ function initStorage()
 		not(g_Storage.DB:createDBTable("Friends", friendsColumns))
 	) then
 		LOGWARNING("Cannot initialize the PrivateBlocks DB")
-		error("Coiny economy DB failure")
+		error("PrivateBlocks DB failure")
 	end
 end
 
