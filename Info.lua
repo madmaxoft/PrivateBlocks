@@ -55,7 +55,7 @@ hackdoor).
 				
 				rmfriend =
 				{
-					HelpString = "Adds a friend to the list of people who can interact with your blocks",
+					HelpString = "Removes a former friend from the list of people who can interact with your blocks",
 					Permission = "privateblocks.user.rmfriend",
 					Alias = "removefriend",
 					Handler = handlePBRmFriend,

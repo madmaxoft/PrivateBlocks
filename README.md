@@ -11,7 +11,7 @@ Note that friendship is a one-way relationship - declaring someone a friend only
 | ------- | ---------- | ----------- |
 |/privateblocks addfriend | privateblocks.user.addfriend | Adds a friend to the list of people who can interact with your blocks|
 |/privateblocks lsfriends | privateblocks.user.lsfriends | Lists all people you have allowed to interact with your blocks|
-|/privateblocks rmfriend | privateblocks.user.rmfriend | Adds a friend to the list of people who can interact with your blocks|
+|/privateblocks rmfriend | privateblocks.user.rmfriend | Removes a former friend from the list of people who can interact with your blocks|
 
 
 
