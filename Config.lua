@@ -61,7 +61,7 @@ end
 
 --- Loads the configuration; 
 local function loadConfig()
-	if not(cFile:Exists(CONFIG_FILE)) then
+	if not(cFile:IsFile(CONFIG_FILE)) then
 		-- No file to read from, bail out with a log message
 		-- But first copy our example file to the folder, to let the admin know the format:
 		local pluginFolder = cPluginManager:Get():GetCurrentPlugin():GetLocalFolder()
