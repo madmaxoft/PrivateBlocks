@@ -200,7 +200,7 @@ function g_Storage:removeFriend(a_PlayerUuid, a_FriendUuid)
 	
 	-- Remove from DB:
 	return self.DB:executeStatement(
-		"INSERT INTO Friends(Player, Friend) VALUES (?, ?)",
+		"DELETE FROM Friends WHERE Player = ? AND Friend = ?",
 		{ a_PlayerUuid, a_FriendUuid }
 	)
 end

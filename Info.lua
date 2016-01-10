@@ -31,42 +31,46 @@ hackdoor).
 		{
 			Subcommands =
 			{
-				addfriend =
+				friend =
 				{
-					HelpString = "Adds a friend to the list of people who can interact with your blocks",
-					Permission = "privateblocks.user.addfriend",
-					Handler = handlePBAddFriend,
-					ParameterCombinations =
+					Subcommands =
 					{
+						add =
 						{
-							Params = "Player",
-							HelpString = "Adds Player to the list of people who can interact with your blocks",
-						},
-					},
-				},  -- addfriend
+							HelpString = "Adds a friend to the list of people who can interact with your blocks",
+							Permission = "privateblocks.user.addfriend",
+							Handler = handlePBAddFriend,
+							ParameterCombinations =
+							{
+								{
+									Params = "Player",
+									HelpString = "Adds Player to the list of people who can interact with your blocks",
+								},
+							},
+						},  -- friend add
 				
-				lsfriends =
-				{
-					HelpString = "Lists all people you have allowed to interact with your blocks",
-					Permission = "privateblocks.user.lsfriends",
-					Alias = "listfriends",
-					Handler = handlePBLsFriends,
-				},  -- lsfriends
-				
-				rmfriend =
-				{
-					HelpString = "Removes a former friend from the list of people who can interact with your blocks",
-					Permission = "privateblocks.user.rmfriend",
-					Alias = "removefriend",
-					Handler = handlePBRmFriend,
-					ParameterCombinations =
-					{
+						list =
 						{
-							Params = "Player",
-							HelpString = "Removes Player from the list of people who can interact with your blocks",
-						},
-					},
-				},  -- rmfriend
+							HelpString = "Lists all people you have allowed to interact with your blocks",
+							Permission = "privateblocks.user.lsfriends",
+							Handler = handlePBListFriends,
+						},  -- friend list
+				
+						remove =
+						{
+							HelpString = "Removes a former friend from the list of people who can interact with your blocks",
+							Permission = "privateblocks.user.rmfriend",
+							Handler = handlePBRemoveFriend,
+							ParameterCombinations =
+							{
+								{
+									Params = "Player",
+									HelpString = "Removes Player from the list of people who can interact with your blocks",
+								},
+							},
+						},  -- rmfriend
+					},  -- Subcommands
+				}, -- friend
 			},  -- Subcommands
 		},  -- "/privateblocks"
 	},  -- Commands
