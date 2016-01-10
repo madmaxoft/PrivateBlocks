@@ -9,9 +9,9 @@ Note that friendship is a one-way relationship - declaring someone a friend only
 ### General
 | Command | Permission | Description |
 | ------- | ---------- | ----------- |
-|/privateblocks addfriend | privateblocks.user.addfriend | Adds a friend to the list of people who can interact with your blocks|
-|/privateblocks lsfriends | privateblocks.user.lsfriends | Lists all people you have allowed to interact with your blocks|
-|/privateblocks rmfriend | privateblocks.user.rmfriend | Removes a former friend from the list of people who can interact with your blocks|
+|/privateblocks friend add | privateblocks.user.addfriend | Adds a friend to the list of people who can interact with your blocks|
+|/privateblocks friend list | privateblocks.user.lsfriends | Lists all people you have allowed to interact with your blocks|
+|/privateblocks friend remove | privateblocks.user.rmfriend | Removes a former friend from the list of people who can interact with your blocks|
 
 
 
@@ -19,6 +19,6 @@ Note that friendship is a one-way relationship - declaring someone a friend only
 | Permissions | Description | Commands | Recommended groups |
 | ----------- | ----------- | -------- | ------------------ |
 | privateblocks.admin.override | Place and dig blocks regardless of their ownership |  | admins, mods |
-| privateblocks.user.addfriend | Add a friend so that they can break my blocks | `/privateblocks addfriend`, `/privateblocks addfriend` | default |
-| privateblocks.user.lsfriends | List people who can break my blocks | `/privateblocks lsfriends`, `/privateblocks lsfriends` | default |
-| privateblocks.user.rmfriend | Remove a former friend so that they cannot break my blocks anymore | `/privateblocks rmfriend`, `/privateblocks rmfriend` | default |
+| privateblocks.user.addfriend | Add a friend so that they can break my blocks | `/privateblocks friend add` | default |
+| privateblocks.user.lsfriends | List people who can break my blocks | `/privateblocks friend list` | default |
+| privateblocks.user.rmfriend | Remove a former friend so that they cannot break my blocks anymore | `/privateblocks friend remove` | default |
